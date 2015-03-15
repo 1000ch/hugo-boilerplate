@@ -1,0 +1,24 @@
+baseurl = "https://your-domain.com/"
+title = "Hugo Boilerplate Project"
+contentdir = "content"
+layoutdir = "layouts"
+staticdir = "static"
+publishdir = "_public"
+uglyUrls = true
+metaDataFormat = "yaml"
+[params]
+  description = "Hugo Boilerplate Project"
+[permalinks]
+  post = "/:year/:title"
+
+#:year the 4-digit year
+#:month the 2-digit month
+#:monthname the name of the month
+#:day the 2-digit day
+#:weekday the 1-digit day of the week (Sunday = 0)
+#:weekdayname the name of the day of the week
+#:yearday the 1- to 3-digit day of the year
+#:section the content’s section
+#:title the content’s title
+#:slug the content’s slug (or title if no slug)
+#:filename the content’s filename (without extension)
