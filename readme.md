@@ -37,3 +37,7 @@ Watch hugo project files.
 ```bash
 $ npm start
 ```
+
+## To use [Wercker](http://wercker.com/)
+
+See [Automated deployments with Wercker](http://gohugo.io/tutorials/automated-deployments/).
