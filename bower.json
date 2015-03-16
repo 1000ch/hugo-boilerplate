@@ -12,6 +12,7 @@
   ],
   "dependencies": {
     "normalize.css": "~3.0.2",
-    "highlight.js": "isagalaev/highlight.js#8.4"
+    "highlight.js": "isagalaev/highlight.js#8.4",
+    "jquery": "~2.1.3"
   }
 }
