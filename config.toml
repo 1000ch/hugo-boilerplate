@@ -4,7 +4,7 @@ contentdir = "content"
 layoutdir = "layouts"
 staticdir = "static"
 publishdir = "_public"
-uglyUrls = true
+uglyUrls = false
 metaDataFormat = "yaml"
 [params]
   description = "Hugo Boilerplate Project"
