@@ -12,9 +12,9 @@
     "node": "0.12"
   },
   "scripts": {
-    "postinstall": "bower install && gulp",
+    "postinstall": "bower install && gulp build",
     "start": "hugo server --watch",
-    "build": "gulp && hugo"
+    "build": "gulp build && hugo"
   },
   "devDependencies": {
     "bower": "^1.3.12",
