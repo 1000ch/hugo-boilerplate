@@ -1,6 +1,18 @@
 # Hugo Boilerplate
 
-Minimum structure for Hugo
+Minimum structure for Hugo.
+
+You have to install newest version of Hugo before using this repository.
+
+```bash
+$ brew install hugo
+```
+
+If already installed, I recommend you to update.
+
+```bash
+$ brew update
+```
 
 ## Getting started
 
