@@ -1,15 +1,16 @@
-baseurl = "https://your-domain.com/"
-title = "Hugo Boilerplate Project"
-contentdir = "content"
-layoutdir = "layouts"
-staticdir = "static"
-publishdir = "_public"
-uglyUrls = false
-metaDataFormat = "yaml"
-[params]
-  description = "Hugo Boilerplate Project"
-[permalinks]
-  post = "/:year/:title"
+---
+baseurl:    "https://your-domain.com/"
+title:      "Hugo Boilerplate Project"
+contentdir: "content"
+layoutdir:  "layouts"
+staticdir:  "static"
+publishdir: "_public"
+uglyUrls:   false
+metaDataFormat: "yaml"
+params:
+  description:  "Hugo Boilerplate Project"
+permalinks:
+  post: /:year/:title/  
 
 #:year the 4-digit year
 #:month the 2-digit month
