@@ -1,4 +1,3 @@
----
 baseurl:    "https://your-domain.com/"
 title:      "Hugo Boilerplate Project"
 contentdir: "content"
