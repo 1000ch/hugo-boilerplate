@@ -3,7 +3,8 @@ var concat   = require('gulp-concat');
 var sequence = require('run-sequence').use(gulp);
 
 var LIB_JS_FILES = [
-  'bower_components/jquery/dist/jquery.min.js'
+  'bower_components/jquery/dist/jquery.min.js',
+  'bower_components/highlightjs/highlight.pack.js'
 ];
 
 var APP_JS_FILES = [
@@ -12,7 +13,7 @@ var APP_JS_FILES = [
 
 var LIB_CSS_FILES = [
   'bower_components/normalize.css/normalize.css',
-  'bower_components/highlight.js/src/styles/solarized_light.css'
+  'bower_components/highlightjs/styles/solarized_light.css'
 ];
 
 var APP_CSS_FILES = [
