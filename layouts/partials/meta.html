@@ -1,17 +1,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{ .Title }} - {{ .Site.Title }}</title>
-<link rel="icon" href="/favicon.png">
-<link rel="shortcut icon" href="/favicon.png">
-<link rel="shortcut icon" href="/favicon.svg" type="image/svg+xml" sizes="any">
-<link rel="stylesheet" href="/css/lib.min.css">
-<link rel="stylesheet" href="/css/app.min.css">
-<link rel="alternate" href="/index.xml" title="" type="application/rss+xml">
+<link rel="icon" href="{{ .Site.BaseUrl }}/favicon.png">
+<link rel="shortcut icon" href="{{ .Site.BaseUrl }}/favicon.png">
+<link rel="shortcut icon" href="{{ .Site.BaseUrl }}/favicon.svg" type="image/svg+xml" sizes="any">
+<link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/lib.min.css">
+<link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/app.min.css">
+<link rel="alternate" href="{{ .Site.BaseUrl }}/index.xml" title="" type="application/rss+xml">
 <meta property="og:type", content="article">
 <meta property="og:url", content="{{ .Permalink }}">
 <meta property="og:site_name", content="{{ .Site.Title }}">
 <meta property="og:title", content="{{ .Title }}">
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon.png">
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/apple-touch-icon.png">
-<link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ .Site.BaseUrl }}/img/apple-touch-icon.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ .Site.BaseUrl }}/img/apple-touch-icon.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ .Site.BaseUrl }}/img/apple-touch-icon.png">
+<link rel="apple-touch-icon-precomposed" href="{{ .Site.BaseUrl }}/img/apple-touch-icon.png">
