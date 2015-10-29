@@ -1,4 +1,4 @@
-# Hugo Boilerplate
+# Hugo Boilerplate [![devDependency Status](https://david-dm.org/1000ch/hugo-boilerplate/dev-status.svg)](https://david-dm.org/1000ch/hugo-boilerplate#info=devDependencies)
 
 Minimum structure for Hugo.
 
