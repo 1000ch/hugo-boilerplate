@@ -6,7 +6,7 @@ build:
         name: build static files
         code: npm run build
     - arjen/hugo-build:
-        version: 0.14
+        version: "0.15"
 deploy:
   steps:
     - lukevivier/gh-pages@0.2.1:
