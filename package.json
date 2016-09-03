@@ -1,5 +1,6 @@
 {
   "name": "hugo-boilerplate",
+  "private": true,
   "description": "Hugo Boilerplate Project",
   "repository": {
     "type": "git",
@@ -9,7 +10,7 @@
     "url": "https://github.com/1000ch/hugo-boilerplate/issues"
   },
   "engines": {
-    "node": "4.2.1"
+    "node": "6.5.0"
   },
   "scripts": {
     "postinstall": "bower install && gulp build",
@@ -18,12 +19,12 @@
   },
   "devDependencies": {
     "bower": "^1.7.9",
-    "gulp": "^3.9.0",
+    "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
-    "gulp-csscomb": "^3.0.6",
+    "gulp-csscomb": "^3.0.7",
     "gulp-csso": "^2.0.0",
     "gulp-uglify": "^2.0.0",
-    "run-sequence": "^1.1.4"
+    "run-sequence": "^1.2.2"
   },
   "author": {
     "name": "1000ch",

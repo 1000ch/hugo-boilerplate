@@ -11,8 +11,8 @@
     "tests"
   ],
   "dependencies": {
-    "normalize.css": "~3.0.3",
-    "jquery": "~2.1.4",
-    "highlightjs": "~8.5.0"
+    "normalize-css": "^4.2.0",
+    "highlightjs": "^9.6.0",
+    "jquery": "^3.1.0"
   }
 }
